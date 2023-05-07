@@ -1,0 +1,27 @@
+/**task3**/
+
+.container__flex {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 1px solid red;
+    width: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.item {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.container__grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    outline: 1px solid red;
+
+    width: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
